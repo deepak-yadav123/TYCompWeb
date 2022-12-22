@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* Css of Menu */
+.wrapper{
+    /* border: 1px solid white; */
+    width: 100%;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+    
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3B3B98;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: #182C61;
+}
+
+/* Css of Manage Renters */
+
+.btn-primary{
+    background-color:#5352ed ;
+    padding: 8%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.container{
+    margin: 0 630px;
+    text-align: center;
+}
+.container1 h1{
+    text-align: center;
+}
+.tbl-full{
+    width: 100%;
+    
+}
+.tbl-full tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+.tbl-full tr td{
+    padding: 1%;
+}
+.update-btn{
+    background-color: #4cd137;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 4px;
+}
+.update-btn:hover{
+   background-color: #44bd32;
+   cursor: pointer;
+}
+.danger-btn{
+    background-color: #e84118;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 4px;
+}
+.danger-btn:hover{
+    background-color: #c23616;
+    cursor: pointer;
+ }
+
+ /* Css of Add Renter */
+
+ .tbl-30{
+    width: 40%;
+    padding-left: 2%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.tbl-30 tr,td,input {
+    font-size: large;
+    padding: 0%;
+    margin: 2%;
+}
+/* Backend Css */
+.submitMsg{
+    color:green;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.error{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.btn-pay-deta{
+    background-color: #5f27cd;
+    color: white;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    padding: 10px 5px;
+   
+    border-radius: 5px;
+    width: 8%;
+    font-weight: bold;
+    font-size: large;
+}
+.btn-pay-deta:hover{
+    background-color: #341f97;
+}
+
+.btn-pay-deta2{
+    background-color:#5352ed ;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    /* padding: 10px 5px; */
+    padding: 1.2%;
+    width: 8%;
+    font-size: large;
+}
+.btn-pay-deta2:hover{
+    background-color: #3742fa;
+}
+
+.note{
+    justify-content: center;
+    text-align: center;
+    margin:0% 30%;
+   
+}
+.note-paisa #note-select{
+     border:1px solid black;
+     margin:0% 20%;
+     padding:1%;
+     width:100%; 
+}
+.note-paisa .note-baki{
+    border:1px solid black;
+    margin:5% 20%;
+    padding:5%;
+    font-size: larger;
+}
+.droplist{
+    width: 80%;
+    padding: 10px 15px;
+    border: 1px dashed blue;
+    border-radius: 4px;
+    background-color: #a29bfe;
+}
+.paydetails {
+    justify-content: center;
+    text-align: center;
+    /*margin-left: 20%;
+    color: white; */
+}
+.paid-btn{
+    background-color: #e84118;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2% 35%;
+    border-radius: 4px;
+}
+.paid-btn:hover{
+    background-color: #c23616;
+    cursor: pointer;
+ }
+ .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+ }
+ .border{
+   width: 70%;
+   margin: 0% auto;
+   padding: 1%;
+   border: 1px solid black;
+ }
+ .link{
+    text-decoration: none;
+ }
+
+/* Menu button */
+ .btn-pay-deta4{
+    background-color:#25CCF7 ;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    /* margin-left: 45%;
+    margin-bottom: 5%; */
+    /* padding: 10px 5px; */
+    padding: 0.8%;
+    width: 5%;
+    font-size: large;
+}
+.btn-pay-deta4:hover{
+    background-color:#1B9CFC;
+}
